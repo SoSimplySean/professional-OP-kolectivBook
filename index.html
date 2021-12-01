@@ -29,7 +29,7 @@
 
   <body>
 
-    <a href="https://olympuspages.netlify.app/" style="text-decoration: none;">
+    <a href="https://olympuspages.netlify.app/" style="text-decoration: none;" id="home" >
       <div style="background-color: #6981c9; position: relative; z-index: 10; box-shadow: 0 2px 4px 0 rgba(0,0,0,.8)">
       <div class="olympus-pages" style="padding: 10px 0 10px 0; text-align: center; ">
         <p style="font-family: 'Inter', sans-serif; font-weight: normal; color: white; font-size: 16px;  margin-bottom: 0;">Built by Olympus Pages ☁️ Claim your <strong style="color: white;">free landing page</strong> today.</p>
@@ -37,7 +37,7 @@
     </div>
     </a>
 
-    <header  id="home" class="header">
+    <header  class="header">
       <div class="branding">
         <div
           class="container d-flex justify-content-center position-relative py-3"
@@ -66,30 +66,40 @@
           <div class="col-12 col-md-7 pt-5 mb-5 align-self-center">
             <div class="promo pe-md-3 pe-lg-5">
               <h1 class="headline mb-3">
-                Improve Your Miniature<br />Painting Foundation
+                <span style="color: #ee5f54;">IMPROVE</span> YOUR MINIATURE<br />PAINTING FOUNDATION
               </h1>
               <!--//headline-->
               <div class="subheadline mb-4">
                 A comprehensive novice guide to help kick off your painting
-                journey so you can start slaying the grey faster.
+                journey so you can start slaying the grey today.
               </div>
               <!--//subheading-->
 
-              <div class="cta-holder row gx-md-3 gy-3 gy-md-0">
-                <div class="col-12 col-md-auto">
-                  <a
+              <div class="cta-holder row gx-md-3 gy-3 gy-md-0" >
+                <!-- <div class="col-12 col-md-auto"> -->
+                  <!-- <a
                     class="btn btn-primary w-100"
                     href="#home"
                     >Buy for $20</a
-                  >
-                </div>
-                <div class="col-12 col-md-auto">
-                  <a
-                    class="btn btn-secondary scrollto w-100"
-                    href="#benefits-section"
-                    >Learn More</a
-                  >
-                </div>
+                  > -->
+                  <form class="signup-form row g-2 align-items-center">
+                    <div class="col-12 col-lg-9">
+                      <label class="sr-only" for="semail">Email</label>
+                      <input
+                        type="email"
+                        id="semail"
+                        name="semail1"
+                        class="form-control me-md-1 semail"
+                        placeholder="Your email"
+                      />
+                    </div>
+                    <div class="col-12 col-lg-3">
+                      <button type="submit" class="btn btn-primary btn-submit w-100">
+                        Send
+                      </button>
+                    </div>
+                  </form>
+                <!-- </div> -->
               </div>
               <!--//cta-holder-->
 
@@ -120,7 +130,7 @@
                     <div class="carousel-item active">
                       <blockquote class="quote p-4 theme-bg-light">
                         "Kenneth is an amazing painter and this book is a great
-                        consolidation of his advice for beginners."
+                        consolidation of his advice."
                       </blockquote>
                       <!--//item-->
                       <div
@@ -261,7 +271,7 @@
     >
       <div class="container py-5">
         <h2 class="section-heading text-center mb-3">
-          Don't Know How To Start Painting?
+          Hey! Interested in learning how to paint miniatures?
         </h2>
         <div class="section-intro single-col-max mx-auto text-center mb-5">
           We've got you covered! This book walks you through step-by-step all
@@ -272,7 +282,7 @@
           <div class="item col-12 col-md-6 col-lg-4">
             <div class="item-inner p-3 p-lg-4">
               <div class="item-header mb-3">
-                <div class="item-icon"><i class="fas fa-laptop-code"></i></div>
+                <div class="item-icon"><img src="./assets/images/icon-01.png" alt=""></div>
                 <h3 class="item-heading">Easy-to-follow instructions</h3>
               </div>
               <!--//item-heading-->
@@ -285,7 +295,7 @@
           <div class="item col-12 col-md-6 col-lg-4">
             <div class="item-inner p-3 p-lg-4">
               <div class="item-header mb-3">
-                <div class="item-icon"><i class="fab fa-js-square"></i></div>
+                <div class="item-icon"><img src="./assets/images/icon-02.png" alt=""></div>
                 <h3 class="item-heading">Pro tips you wish you knew earlier</h3>
               </div>
               <!--//item-heading-->
@@ -301,7 +311,7 @@
           <div class="item col-12 col-md-6 col-lg-4">
             <div class="item-inner p-3 p-lg-4">
               <div class="item-header mb-3">
-                <div class="item-icon"><i class="fab fa-rocketchat"></i></div>
+                <div class="item-icon"><img src="./assets/images/icon-03.png" alt=""></div>
                 <h3 class="item-heading">By an award-winning painter</h3>
               </div>
               <!--//item-heading-->
@@ -320,7 +330,7 @@
     <section id="content-section" class="content-section">
       <div class="container">
         <div class="single-col-max mx-auto">
-          <h2 class="section-heading text-center mb-5">See What's Inside</h2>
+          <h2 class="section-heading text-center mb-5">Here's what you'll learn</h2>
           <div class="row">
             <div class="col-12 col-md-6">
               <div class="figure-holder mb-5">
@@ -380,7 +390,7 @@
 
     <section id="audience-section" class="audience-section py-5">
       <div class="container">
-        <h2 class="section-heading text-center mb-4">Who This Book Is For</h2>
+        <h2 class="section-heading text-center mb-4">Who Is This Book For?</h2>
         <div class="section-intro single-col-max mx-auto text-center mb-5">
           This book is filled with tips and tricks that are useful to both pros
           and novices alike, so don't miss out!
@@ -436,7 +446,7 @@
             Download this free 9-page PDF today
           </h2>
           <div class="form-intro text-center mb-3">
-            Feast your eyes on this beautifully designed guide<br />Help share
+            Bet you haven't seen a guide designed like this before<br />Help share
             it with your friends and grow the painting community!
           </div>
           <div class="form-wrapper mx-auto">
@@ -632,7 +642,7 @@
 
 
     <footer class="footer">
-      <div class="footer-bottom text-center py-5">
+      <div class="footer-bottom text-center py-3">
         <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
         <small class="copyright"
           >Designed with <i class="fas fa-heart" style="color: #fb866a"></i> by
